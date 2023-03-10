@@ -1,12 +1,13 @@
 import React from 'react';
 
-const Header = () => {
+const Header = ({ isDarkMode, toggleDarkMode }) => {
   return (
     <header>
+
       <nav className="navbar navbar-expand-lg navbar-light">
         <div className="container">
           <a className="navbar-brand" href="/">
-            My Portfolio
+            Portfolio
           </a>
           <button
             className="navbar-toggler"

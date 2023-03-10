@@ -1,14 +1,15 @@
 import React from 'react';
 import Project from './Project';
 
+
 const Projects = () => {
   const projects = [
     {
       title: 'Project 1',
-      description: 'This is a description for project 1',
-      image: 'https://via.placeholder.com/350x150',
-      url: 'https://www.example.com/project-1',
-      githubUrl: 'https://github.com/username/project-1',
+      description: 'Urban Green Spaces mapping App. Above is a web application tool that maps Urban Green Spaces across various cities worldwide. The tool is uses the Earth Engine JavaScript API to do the analysis. The backend preprocess the Landsat image, then classifies the image using Random Forest algorithm . It utilises automatica training data generation used in the classification over the time period. It also utilises training sapmple migration in GEE to be able to classify historical data accurately. The output are spatial-temporal maps and a graph showing the area changes.',
+      image: 'https://github.com/osundwajeff/official_portfolio/blob/main/ugs_project.png?raw=true',
+      url: 'https://mag.users.earthengine.app/view/demo2ugs',
+      githubUrl: 'https://github.com/osundwajeff',
     },
     {
       title: 'Project 2',

@@ -32,18 +32,18 @@ const Contact = () => {
           <div className="col-lg-6">
             <div className="contact-info">
               <p>
-                <i className="fa fa-map-marker"></i> 123 Main Street, Anytown USA
+                <i className="fa fa-map-marker"></i> Nairobi, Kenya
               </p>
               <p>
-                <i className="fa fa-phone"></i> (123) 456-7890
+                <i className="fa fa-phone"></i> (+254) xxxxxxxxx
               </p>
               <p>
                 <i className="fa fa-envelope"></i>
               <p>
-                <i className="fa fa-globe"></i> www.example.com
+                <i className="fa fa-globe"></i> N/A
               </p>
               <p>
-                <i className="fa fa-twitter"></i> @example
+                <i className="fa fa-twitter"></i> N/A
               </p>
               </p>
             </div>
