@@ -1,5 +1,4 @@
 import React from 'react';
-import Skill from './Skill';
 import avatar from '../images/avatar.jpg';
 
 const About = () => {
