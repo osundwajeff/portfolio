@@ -1,0 +1,181 @@
+/* Reset styles */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* Global styles */
+body {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #333;
+}
+
+a {
+  color: #333;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Header styles */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  background-color: #f2f2f2;
+  border-bottom: 1px solid #ddd;
+}
+
+header h1 {
+  font-size: 2rem;
+}
+
+header nav ul {
+  display: flex;
+  list-style: none;
+}
+
+header nav li:not(:last-child) {
+  margin-right: 1rem;
+}
+
+header nav a {
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+/* Footer styles */
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 4rem;
+  background-color: #f2f2f2;
+  border-top: 1px solid #ddd;
+}
+
+footer p {
+  font-size: 1.2rem;
+}
+
+/* Home styles */
+#home {
+  height: calc(100vh - 6rem);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url('https://source.unsplash.com/random');
+  background-size: cover;
+  background-position: center;
+}
+
+#home h2 {
+  font-size: 4rem;
+  color: #fff;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+/* About styles */
+#about {
+  padding: 2rem;
+  margin: 2rem 0;
+  border: 1px solid #ddd;
+}
+
+#about h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+#about p {
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+}
+
+#about img {
+  max-width: 150px;
+  height: 150px;
+}
+
+/* Skills styles */
+.skills {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, auto);
+  gap: 20px;
+}
+
+.skill {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.skill img {
+  width: 50px;
+  height: 50px;
+  margin-bottom: 10px;
+}
+
+.skill h3 {
+  font-size: 18px;
+  margin: 0;
+}
+
+.skill p {
+  font-size: 14px;
+  margin: 0;
+}
+
+
+/* Projects styles */
+#projects {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem;
+  margin: 2rem 0;
+}
+
+.project {
+  border: 1px solid #ddd;
+  padding: 1rem;
+}
+
+.project h3 {
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.project p {
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+}
+
+.project a {
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+/* Contact styles */
+#contact {
+  padding: 2rem;
+  margin: 2rem 0;
+  border: 1px solid #ddd;
+}
+
+#contact h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+#contact label {
+  display: block;
+  font-size: 
+}
